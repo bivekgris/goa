@@ -1,0 +1,9 @@
+version = 1
+[[analyzers]]
+name = "test-coverage"
+enabled = true
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/goadesign/goa"
